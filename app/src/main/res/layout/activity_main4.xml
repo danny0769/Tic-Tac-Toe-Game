@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEEB"
+    android:orientation="vertical"
+    tools:context=".MainActivity4">
+
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/giphy"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        tools:text="player 1 wins"
+        android:gravity="center"
+        android:fontFamily="serif"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:background="@drawable/editview"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/resultv"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/editview"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Play Again"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:id="@+id/playagainid"
+        android:fontFamily="serif"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
